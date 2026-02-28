@@ -137,9 +137,9 @@ FROM silver.erp_cust_az12;
 -- ====================================================================
 -- Data Standardization & Consistency
 SELECT DISTINCT 
-    cntry 
+    country 
 FROM silver.erp_loc_a101
-ORDER BY cntry;
+ORDER BY country;
 
 -- ====================================================================
 -- Checking 'silver.erp_px_cat_g1v2'
